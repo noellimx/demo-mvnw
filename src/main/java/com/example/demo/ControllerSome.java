@@ -1,3 +1,4 @@
+/* (C)2022 */
 package com.example.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,5 +11,4 @@ public class ControllerSome {
     public String index() {
         return "Greetings from Spring Boot!";
     }
-
 }
